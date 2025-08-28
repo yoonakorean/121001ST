@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>9-1 句子聽打挑戰</title>
+<title>10-1 句子聽打挑戰</title>
 <style>
 body { font-family: sans-serif; max-width: 600px; margin: auto; text-align: center; padding: 30px 15px; }
 #logo, #logo-game { width: 150px; max-width: 80%; margin-bottom: 10px; display: block; margin-left: auto; margin-right: auto; }
@@ -56,18 +56,18 @@ if (password !== "1231") { alert("密碼錯誤，無法進入！"); window.locat
 
 <script>
 const questions = [
-  { audio: "12090101S.mp3", answer: "우리 집에 와서 밥을 먹어요.", chinese: "來我們家吃飯。" },
-  { audio: "12090102S.mp3", answer: "빨리 집에 가서 쉬어요.", chinese: "快點回家休息。" },
-  { audio: "12090103S.mp3", answer: "전화해서 물어보세요.", chinese: "請打電話問看看。" },
-  { audio: "12090104S.mp3", answer: "생일 선물을 사서 줬어요.", chinese: "買了生日禮物給他。" },
-  { audio: "12090105S.mp3", answer: "오후에 병원에 가서 주사를 맞았어요.", chinese: "下午去醫院打針了。" },
-  { audio: "12090106S.mp3", answer: "저녁에 국밥을 만들어서 먹을 거예요.", chinese: "晚餐要煮湯飯來吃。" },
-  { audio: "12090107S.mp3", answer: "아침에 일찍 일어나서 일했어요.", chinese: "早上很早就起床工作了。" },
-  { audio: "12090108S.mp3", answer: "변호사와 앉아서 얘기하고 있어요.", chinese: "正在和律師坐著聊天。" },
-  { audio: "12090109S.mp3", answer: "돈을 찾아서 월세를 냈어요.", chinese: "領錢繳了房租。" },
-  { audio: "12090110S.mp3", answer: "휴게소에 들어서 음료수를 샀어요.", chinese: "去休息站買了飲料。" },
-  { audio: "12090111S.mp3", answer: "밤에 학교에 남아서 시험 공부할 거예요.", chinese: "晚上要留在學校準備考試。" },
-  { audio: "12090112S.mp3", answer: "옷을 벗어서 옷걸이에 걸어요.", chinese: "把衣服脫下來掛在衣架上。" }
+  { audio: "12100101S.mp3", answer: "오늘 피곤해서 일찍 쉬고 싶어요.", chinese: "今天很累想早點休息。" },
+  { audio: "12100102S.mp3", answer: "바쁘지만 테니스를 치고 싶어요.", chinese: "雖然很忙但還是想打網球。" },
+  { audio: "12100103S.mp3", answer: "아침에 졸려서 커피를 마시고 싶어요.", chinese: "早上很睏，所以想喝杯咖啡。" },
+  { audio: "12100104S.mp3", answer: "이 빵집에 줄이 너무 길어서 기다리고 싶지 않아요.", chinese: "這間麵包店排太久了，不想等。" },
+  { audio: "12100105S.mp3", answer: "살을 빼고 싶어서 헬스장에 다니고 있어요.", chinese: "最近想減肥，所以在上健身房。" },
+  { audio: "12100106S.mp3", answer: "비가 와서 집에 있고 싶어해요.", chinese: "因為下雨，所以(他)想待在家。" },
+  { audio: "12100107S.mp3", answer: "여동생이 먼저 머리를 자르고 쇼핑하고 싶어해요.", chinese: "妹妹想先剪頭髮再逛街。" },
+  { audio: "12100108S.mp3", answer: "조카가 졸업 후에 운전면허증을 따고 싶어해요.", chinese: "姪子畢業後想考駕照。" },
+  { audio: "12100109S.mp3", answer: "여자 친구가 토요일에 일어나서 아침을 먹고 싶어해요.", chinese: "女朋友想要禮拜六起床吃早餐。" },
+  { audio: "12100110S.mp3", answer: "날씨가 더워서 자전거를 타고 아이스크림을 먹고 싶어요.", chinese: "天氣太熱，所以騎完腳踏車想吃冰淇淋。" },
+  { audio: "12100111S.mp3", answer: "한국 음식도 좋아하고 드라마도 좋아해서 한국에 가고 싶어요.", chinese: "因為我喜歡韓國料理也喜歡韓劇，所以想去韓國。" },
+  { audio: "12100112S.mp3", answer: "수업이 끝나고 친구와 노래방에 가서 노래를 부르고 싶어요.", chinese: "下課後想和朋友去KTV唱歌。" }
 ];
 
 const modeSelectDiv = document.getElementById("mode-select");
@@ -102,8 +102,8 @@ let currentMode = null;
 let startTime = null; // 記錄挑戰開始時間
 
 // 顯示標題與送表單標題
-const displayTitle = "9-1 句子聽打挑戰";
-const fullTitle = "12-9-1 句子聽打挑戰";
+const displayTitle = "10-1 句子聽打挑戰";
+const fullTitle = "12-10-1 句子聽打挑戰";
 
 function shuffle(array){for(let i=array.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[array[i],array[j]]=[array[j],array[i]];}return array;}
 
